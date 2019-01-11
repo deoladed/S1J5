@@ -37,7 +37,7 @@ my_hash.each do |key, val|
 end
 puts "Le monnaie la plus forte est #{cryptomax}, la plus faible est #{cryptomin}"
 
-
+# Autres techniques
 # fois.times do |i|
 # 	value = my_hash.fetch(my_hash.keys[i])
 # 	value = value[1 .. -1].to_f
@@ -67,20 +67,10 @@ puts "Il y a #{countcoin} monnaies contenant le mot 'coin'"
 puts "Il y a #{moinsdesixmille.count} monnaies dont le cours est inferieur a 6000 :"
 print moinsdesixmille
 
-puts "La plus cher des moins cheres #{lapluscher}"
+puts "\n La plus cher des moins cheres #{lapluscher}"
 
 
 
-
-
-# val2 = "$54.5654"
-# puts val2
-# val2 = val2[1 .. -1].to_f
-# puts val2
-
-# Les devises, dont le cours est inférieur à 6000 
-# (Indice : on peut comparer en valeur 2 integers mais pas 2 strings.
-#  Pense bien à enlever le $ et éventuellement utiliser .to_i
 
 
 #------------------------
