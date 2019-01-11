@@ -1,6 +1,3 @@
-
-
-
 def capit(i)
 i = i.scan /\w/
 	i.each do |i|
@@ -36,9 +33,7 @@ case rep
 	when 2
 		chiffres = 0
 		arr.each do |i|
-			if i.count("0-9") > 0
-				chiffres += 1
-			end
+			chiffres += 1 if i.count("0-9") > 0
 		end
 		puts "Il y a #{chiffres} adresses contenant des chiffres"
 	when 3
@@ -89,7 +84,9 @@ def perform
 	end
 end
 perform
-# Regex Style
+
+
+# Regex Style  Exo 2
 # count2 = 0
 # arr.each do |i|
 # 	if i =~ /\d/   
